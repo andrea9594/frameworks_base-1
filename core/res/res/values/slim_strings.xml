@@ -93,6 +93,13 @@
 
     <!-- Error description on theme switch with ligtsensor mode enabled -->
     <string name="theme_auto_switch_mode_error">Automatic light condition change mode is enabled. Manual switching is not possible.</string>
+    
+    <!-- On the unlock gesture screen, shown at the top of the unlock screen to tell the user what to do. Below this text is the place for the user to draw the gesture. -->
+    <string name="lockscreen_gesture_instructions">Draw gesture to unlock</string>
+    <!-- Shown to confirm that the user entered their lock gesture correctly. -->
+    <string name="lockscreen_gesture_correct">Correct!</string>
+    <!-- On the unlock gesture screen, shown when the user enters the wrong lock gesture and must try again. -->
+    <string name="lockscreen_gesture_wrong">Try again</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_preventpower">prevent power key</string>

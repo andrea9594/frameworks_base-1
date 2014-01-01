@@ -106,6 +106,9 @@
 
   <!-- Statusbar double tap gesture -->
   <java-symbol type="bool" name="config_disableDoubleTapSleepGesture" />
+  
+  <!-- Gesture unlock -->
+  <java-symbol type="integer" name="min_gesture_prediction_score" />
 
   <!-- Force permanent menu key -->
   <java-symbol type="bool" name="config_force_permanent_menu_key" />

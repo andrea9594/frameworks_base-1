@@ -271,6 +271,14 @@ public class DevicePolicyManager {
      * restrictive.
      */
     public static final int PASSWORD_QUALITY_COMPLEX = 0x60000;
+    
+    /**
+     * Constant for {@link #setPasswordQuality}: the policy allows for low-security gesture
+     * technology.  This implies technologies that can recognize the identity of
+     * an individual to about a 3 digit PIN (false detection is less than 1 in 1,000).
+     * Note that quality constants are ordered so that higher values are more restrictive.
+     */
+    public static final int PASSWORD_QUALITY_GESTURE_WEAK = 0x80000;
 
     /**
      * Called by an application that is administering the device to set the
